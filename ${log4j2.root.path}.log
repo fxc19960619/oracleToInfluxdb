@@ -1,0 +1,62 @@
+2018-08-21 14:18:03,933  INFO Application:48 - Starting Application on DESKTOP-JRJ7MPF with PID 10812 (E:\j2ee-workspace\sprinpbootInfluxDB\target\classes started by 25080 in E:\j2ee-workspace\sprinpbootInfluxDB)
+2018-08-21 14:18:03,933  INFO Application:597 - The following profiles are active: pro
+2018-08-21 14:18:03,936  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb2996d: startup date [Tue Aug 21 14:18:03 CST 2018]; root of context hierarchy
+2018-08-21 14:18:04,478  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8888 (http)
+2018-08-21 14:18:04,479  INFO StandardService:179 - Starting service [Tomcat]
+2018-08-21 14:18:04,479  INFO StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-21 14:18:04,582  INFO TldScanner:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-08-21 14:18:04,585  INFO [/]:179 - Initializing Spring embedded WebApplicationContext
+2018-08-21 14:18:04,585  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 649 ms
+2018-08-21 14:18:04,615  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-21 14:18:04,616  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-21 14:18:04,616  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-21 14:18:04,616  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-21 14:18:04,616  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-21 14:18:04,945  INFO LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-21 14:18:04,955  INFO Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2018-08-21 14:18:04,970  INFO SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2018-08-21 14:18:58,336  INFO Application:48 - Starting Application on DESKTOP-JRJ7MPF with PID 1920 (E:\j2ee-workspace\sprinpbootInfluxDB\target\classes started by 25080 in E:\j2ee-workspace\sprinpbootInfluxDB)
+2018-08-21 14:18:58,338  INFO Application:597 - The following profiles are active: pro
+2018-08-21 14:18:58,379  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29316d6c: startup date [Tue Aug 21 14:18:58 CST 2018]; root of context hierarchy
+2018-08-21 14:18:58,531  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-08-21 14:19:00,173  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8888 (http)
+2018-08-21 14:19:00,183  INFO StandardService:179 - Starting service [Tomcat]
+2018-08-21 14:19:00,184  INFO StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-21 14:19:00,428  INFO TldScanner:179 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-08-21 14:19:00,432  INFO [/]:179 - Initializing Spring embedded WebApplicationContext
+2018-08-21 14:19:00,433  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 2056 ms
+2018-08-21 14:19:00,582  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-21 14:19:00,586  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-21 14:19:00,587  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-21 14:19:00,587  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-21 14:19:00,587  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-21 14:19:01,326  INFO LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-21 14:19:01,397  INFO Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2018-08-21 14:19:01,398  INFO Environment:213 - HHH000206: hibernate.properties not found
+2018-08-21 14:19:01,399  INFO Environment:317 - HHH000021: Bytecode provider name : javassist
+2018-08-21 14:19:01,434  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-21 14:19:01,536  INFO Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+2018-08-21 14:19:01,766  INFO SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2018-08-21 14:19:01,925  INFO LocalContainerEntityManagerFactoryBean:392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-21 14:19:02,377  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29316d6c: startup date [Tue Aug 21 14:18:58 CST 2018]; root of context hierarchy
+2018-08-21 14:19:02,459  INFO RequestMappingHandlerMapping:543 - Mapped "{[/hello]}" onto public java.lang.String com.feixichen.springboot.web.HelloController.hello(org.springframework.ui.Model)
+2018-08-21 14:19:02,461  INFO RequestMappingHandlerMapping:543 - Mapped "{[/editUser]}" onto public java.lang.String com.feixichen.springboot.web.UserController.listUser(int,org.springframework.ui.Model) throws java.lang.Exception
+2018-08-21 14:19:02,461  INFO RequestMappingHandlerMapping:543 - Mapped "{[/listUser]}" onto public java.lang.String com.feixichen.springboot.web.UserController.listUser(org.springframework.ui.Model,int,int) throws java.lang.Exception
+2018-08-21 14:19:02,462  INFO RequestMappingHandlerMapping:543 - Mapped "{[/addUser]}" onto public java.lang.String com.feixichen.springboot.web.UserController.listUser(com.feixichen.springboot.pojo.User) throws java.lang.Exception
+2018-08-21 14:19:02,462  INFO RequestMappingHandlerMapping:543 - Mapped "{[/updateUser]}" onto public java.lang.String com.feixichen.springboot.web.UserController.updateUser(com.feixichen.springboot.pojo.User) throws java.lang.Exception
+2018-08-21 14:19:02,463  INFO RequestMappingHandlerMapping:543 - Mapped "{[/deleteUser]}" onto public java.lang.String com.feixichen.springboot.web.UserController.deleteUser(com.feixichen.springboot.pojo.User) throws java.lang.Exception
+2018-08-21 14:19:02,466  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-21 14:19:02,466  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-21 14:19:02,500  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-21 14:19:02,500  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-21 14:19:02,538  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-21 14:19:02,834  INFO OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2018-08-21 14:19:02,874  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-08-21 14:19:02,901  INFO Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8888"]
+2018-08-21 14:19:02,910  INFO Http11NioProtocol:179 - Starting ProtocolHandler ["http-nio-8888"]
+2018-08-21 14:19:02,919  INFO NioSelectorPool:179 - Using a shared selector for servlet write/read
+2018-08-21 14:19:02,949  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8888 (http)
+2018-08-21 14:19:02,953  INFO Application:57 - Started Application in 4.955 seconds (JVM running for 5.567)
+2018-08-21 14:32:06,728  INFO AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29316d6c: startup date [Tue Aug 21 14:18:58 CST 2018]; root of context hierarchy
+2018-08-21 14:32:06,730  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2018-08-21 14:32:06,731  INFO LocalContainerEntityManagerFactoryBean:563 - Closing JPA EntityManagerFactory for persistence unit 'default'

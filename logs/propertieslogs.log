@@ -1,0 +1,3 @@
+[DEBUG] 2018-08-15 14:11:28.644 [main] DevToolsSettings - Included patterns for restart : []
+[DEBUG] 2018-08-15 14:11:28.647 [main] DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter/target/classes/, /spring-boot-autoconfigure/target/classes/, /spring-boot-starter-[\w-]+/, /spring-boot/target/classes/, /spring-boot-actuator/target/classes/, /spring-boot-devtools/target/classes/]
+[DEBUG] 2018-08-15 14:11:28.647 [main] ChangeableUrls - Matching URLs for reloading : [file:/E:/j2ee-workspace/sprinpbootInfluxDB/target/classes/]
